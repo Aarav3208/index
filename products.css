@@ -1,0 +1,49 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* H1 styles */
+  h1 {
+    text-align: center; /* center the heading */
+    font-size: 24px; /* larger font size */
+    margin-bottom: 20px; /* add some space between the heading and the content */
+  }
+  
+  /* Prods-container styles */
+  .Prods-container {
+    max-width: 800px; /* set a maximum width for the container */
+    margin: 40px auto; /* center the container horizontally */
+    padding: 20px; /* add some padding around the content */
+    background-color: #f7f7f7; /* light gray background */
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  /* Feature styles */
+  .feature {
+    display: flex; /* use flexbox to layout the content */
+    flex-direction: column; /* stack the content vertically */
+    align-items: center; /* center the content horizontally */
+    padding: 20px; /* add some padding around the content */
+  }
+  
+  .feature img {
+    width: 100%; /* make the image take up the full width */
+    height: 200px; /* set a fixed height for the image */
+    object-fit: cover; /* scale the image to fit the container */
+    border-radius: 10px; /* rounded corners for the image */
+    margin-bottom: 20px; /* add some space between the image and the text */
+  }
+  
+  .feature h2 {
+    font-size: 18px; /* slightly larger font size */
+    margin-top: 0; /* remove top margin */
+  }
+  
+  .feature p {
+    font-size: 16px; /* slightly smaller font size */
+    margin-bottom: 10px; /* add some space between paragraphs */
+  }
